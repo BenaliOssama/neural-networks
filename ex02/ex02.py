@@ -1,3 +1,7 @@
+import sys
+sys.path.append('../ex01')
+from ex01 import Neuron
+
 class OurNeuralNetwork:
     def __init__(self, neuron_h1, neuron_h2, neuron_o1):
         self.h1 = neuron_h1
